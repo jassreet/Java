@@ -14,8 +14,9 @@ public class condition_check {
         int a=20;
         int b=30;
         int c=40;
-        int s=a+b+c;
+        
         if(a<b && b==c){
+            int s=a+b+c;
             System.out.print("Condidtion Right"+s);
            
         }
