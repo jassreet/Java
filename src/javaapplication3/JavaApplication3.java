@@ -17,12 +17,12 @@ public class JavaApplication3 {
     public static void main(String[] args) {
         int a=5;
         if(a<5)
-        { System.out.println("a is less than 5"):
+        { System.out.println("a is less than 5");
         a+=5;
         System.out.println("a is" +a);}
         
         else
-        System.out.println("a is greater or = 5")
+        System.out.println("a is greater or = 5");
         
 
             }

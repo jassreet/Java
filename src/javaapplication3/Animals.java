@@ -29,4 +29,8 @@ package javaapplication3;
                   dog.colour = "brown";
                   System.out.println("Dog colour = " +dog.colour);
            }
+
+    void classFunction(int a) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
