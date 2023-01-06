@@ -21,7 +21,7 @@ package javaapplication3;
               
      public static void main(String args[]){
                   Animals dog=new Animals();
-                  dog.classFunction();
+                  //dog.classFunction();
                   dog.legs = 4;
                   System.out.println("Dog legs = " +dog.legs);
                   dog.eyes = 2;
@@ -30,7 +30,5 @@ package javaapplication3;
                   System.out.println("Dog colour = " +dog.colour);
            }
 
-    void classFunction(int a) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
 }
