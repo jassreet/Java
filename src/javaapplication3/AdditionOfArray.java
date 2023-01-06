@@ -24,15 +24,16 @@ public class AdditionOfArray {
         }
         return a;
     }
-    void show(int column,int row,int c[][]){
-         for (int i = 0; i < column; i++) {
+
+    void show(int column, int row, int c[][]) {
+        for (int i = 0; i < column; i++) {
             for (int j = 0; j < row; j++) {
                 System.out.print(c[i][j] + " ");
-
             }
             System.out.println();
+        }
     }
-    }
+
     public static void main(String args[]) {
         int a[][];
         int b[][];
@@ -48,9 +49,9 @@ public class AdditionOfArray {
         b = new int[column][row];
         c = new int[column][row];
         System.out.println("Enter values of a");
-        
+
         a = additionofarray.getValues(column, row);
-        System.out.println("Enter values of b");
+        System.out.println("Enter values of b"); 
         b = additionofarray.getValues(column, row);
         for (int i = 0; i < column; i++) {
             for (int j = 0; j < row; j++) {
