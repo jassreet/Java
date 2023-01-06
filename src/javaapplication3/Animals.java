@@ -21,7 +21,7 @@ package javaapplication3;
               
      public static void main(String args[]){
                   Animals dog=new Animals();
-                  //dog.classFunction();
+                  dog.classFunction();
                   dog.legs = 4;
                   System.out.println("Dog legs = " +dog.legs);
                   dog.eyes = 2;
