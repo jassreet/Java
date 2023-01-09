@@ -14,9 +14,9 @@ public class Data {
     public static void main(String args[]) {
         int student_id[] = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         String first_name[] = new String[]{"Jatin", "Ashish", "Vishu", "Ekam", "Manmeet", "Jass", "Gopy", "Harleen", "Himanshu", "Arjun"};
-        int m1[]  = new int[]{22, 24, 33, 34, 20, 35, 36, 26, 27, 28};
+        int m1[] = new int[]{22, 24, 33, 34, 20, 35, 36, 26, 27, 28};
         int m2[] = new int[]{39, 54, 52, 38, 55, 50, 33, 57, 59, 45};
-        char grade[]  = new char[]{'B', 'A', 'B', 'C', 'A', 'A', 'C', 'B', 'A', 'C'};
+        char grade[] = new char[]{'B', 'A', 'B', 'C', 'A', 'A', 'C', 'B', 'A', 'C'};
         int i;
         System.out.println("List all the students whose grade is A");
         for (i = 0; i < student_id.length; i++) {
@@ -34,7 +34,7 @@ public class Data {
         System.out.println("");
         System.out.println("Read the Student ID and print the record of the student");
         for (i = 0; i < student_id.length; i++) {
-            System.out.println("Student ID and the record of the student " + first_name[i] + " " + m1[i] + " " + m2[i] + " " + grade[i] + " " + (m1[i]+m2[i]));
+            System.out.println("Student ID and the record of the student " + first_name[i] + " " + m1[i] + " " + m2[i] + " " + grade[i] + " " + (m1[i] + m2[i]));
         }
     }
 }

@@ -25,7 +25,21 @@ public class TwoArray {
         for (int i = 0; i < size; i++) {
             System.out.println("Enter the values for a" + i);
             a[i] = sc.nextInt();
-
+            
+        }
+        int i;
+        int j;
+        int k=0;
+        for(i = 0; i < size; i++){
+            b[k] = a[i];
+            k++;
+            for(j = 0; j < 1; j++){
+               b[k] = 2*a[i];
+               k++;
+            }
+        }
+        for(i = 0; i < size*2;i++){
+            System.out.println("Value of b" +b[i]);
         }
         
     }
