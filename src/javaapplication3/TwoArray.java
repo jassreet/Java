@@ -27,5 +27,6 @@ public class TwoArray {
             a[i] = sc.nextInt();
 
         }
+        
     }
 }
