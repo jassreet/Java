@@ -24,7 +24,7 @@ public class FunctionOverloading {
     }
 
     float area(float a, float b) {
-        return 1 / 2 * a * b;
+        return 0.5f * (a * b);
     }
 
     public static void main(String args[]) {
@@ -32,7 +32,7 @@ public class FunctionOverloading {
         FunctionOverloading fo = new FunctionOverloading();
         System.out.println("area of square = " + fo.area(3));
         System.out.println("area of rectangle = " + fo.area(5, 7));
-        System.out.println("area of circle = " + fo.area(66));
-        System.out.println("area of rohmbus = " + fo.area(30, 10));
+        System.out.println("area of circle = " + fo.area(66f));
+        System.out.println("area of rohmbus = " + fo.area(30f, 10f));
     }
 }
