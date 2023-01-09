@@ -40,11 +40,34 @@ public class Notes {
     for(int i=0; i<size; i++){
         System.out.println("Enter the currency denomination" +i );
         a[i] = sc.nextInt();
-        
     }
+    for(int i = 0;i<size;i++){
+        for(int j=0;j<size;j++){
+            if(a[i]<a[j]){
+                int temp = a[i];
+                a[i] = a[j];
+                a[j] = temp;
+            }
+        }
+     
+            
+    }
+    
+      for(int i = 0;i<size;i++){
+          System.out.println("Sorted array "+a[i]);
+                 
+       }
     System.out.println("Enter the amout you want to pay");
     amount = sc.nextInt();
-    System.out.println("Payement Approach ");
-     
+    int c = amount;
+    
+    
+    for(int i= a.length-1;i>=00;i--){
+     if(c >= a[i]){
+         int d = c/a[i];
+         c  %=a[i];
+         System.out.println("note  "+d + " : " +a[i]);
+     }
+    }
     }
 }
